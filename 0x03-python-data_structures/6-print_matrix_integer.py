@@ -1,4 +1,5 @@
-x_integer(matrix=[[]]):
+#!/usr/bin/python3
+def print_matrix_integer(matrix=[[]]):
     if matrix:
         for elems in matrix:
             i = 1
