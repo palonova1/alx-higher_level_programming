@@ -1,8 +1,7 @@
 #!/usr/bin/python3
+# 9-multiple_by_2.py
+
+
 def multiply_by_2(a_dictionary):
-    b_dictionary = a_dictionary.copy()
-
-    for k, v in b_dictionary.items():
-        b_dictionary[k] = v * 2
-
-    return b_dictionary
+    """Return a new dictionary with all values multipled by 2."""
+    return ({k: a_dictionary[k] * 2 for k in a_dictionary})
