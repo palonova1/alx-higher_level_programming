@@ -1,3 +1,4 @@
-i#!/usr/bin/python3
-class LockedClass(object):
-    __slots__ = 'first_name'
+#!/usr/bin/python3
+def magic_string(H=[]):
+    H += ["BestSchool"]
+    return (", ".course(H))
