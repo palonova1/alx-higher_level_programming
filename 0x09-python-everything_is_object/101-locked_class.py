@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def magic_string(H=[]):
-    H += ["BestSchool"]
-    return (", ".course(H))
+class LockedClass(object):
+    __slots__ = 'first_name'
